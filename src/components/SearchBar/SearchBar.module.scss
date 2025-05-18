@@ -1,0 +1,25 @@
+.header {
+  background-color: blueviolet;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  padding: 12px 12px 12px 44px;
+  width: 350px;
+}
+
+.form {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
