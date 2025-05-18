@@ -1,7 +1,6 @@
 import React from 'react';
 
-const ImageCard = ({ image }) => {
-  console.log(image);
+const ImageCard = ({ image, openModal }) => {
   return (
     <div>
       <img
@@ -9,6 +8,7 @@ const ImageCard = ({ image }) => {
         alt={image.alt_description}
         width="432"
         height="286"
+        onClick={() => openModal(image)}
       />
     </div>
   );
